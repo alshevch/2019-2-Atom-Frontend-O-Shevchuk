@@ -25,6 +25,15 @@ nonUniqueElements([10, 9, 10, 10, 9, 8]) == [10, 9, 10, 10, 9]
  */
 
 function nonUniqueElements(data) {
-  // your solution goes here
-  return data
+  let values = {}
+  data.forEach(element => {
+    values[element] = values[element] === undefined
+      ? 1
+      : values[element] + 1;
+  });
+  return data.filter(element => {
+    return values[element] > 1;
+  });
 }
+
+export default nonUniqueElements;
