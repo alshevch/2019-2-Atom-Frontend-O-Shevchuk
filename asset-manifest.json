@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/atom-mail-2019/static/css/main.b4eae362.chunk.css",
+    "main.js": "/atom-mail-2019/static/js/main.ebfe544a.chunk.js",
+    "main.js.map": "/atom-mail-2019/static/js/main.ebfe544a.chunk.js.map",
+    "runtime-main.js": "/atom-mail-2019/static/js/runtime-main.4e7b64ae.js",
+    "runtime-main.js.map": "/atom-mail-2019/static/js/runtime-main.4e7b64ae.js.map",
+    "static/js/2.a29d3861.chunk.js": "/atom-mail-2019/static/js/2.a29d3861.chunk.js",
+    "static/js/2.a29d3861.chunk.js.map": "/atom-mail-2019/static/js/2.a29d3861.chunk.js.map",
+    "index.html": "/atom-mail-2019/index.html",
+    "precache-manifest.826e90f7801bb248a0385c779448f60a.js": "/atom-mail-2019/precache-manifest.826e90f7801bb248a0385c779448f60a.js",
+    "service-worker.js": "/atom-mail-2019/service-worker.js",
+    "static/css/main.b4eae362.chunk.css.map": "/atom-mail-2019/static/css/main.b4eae362.chunk.css.map",
+    "static/media/logo.svg": "/atom-mail-2019/static/media/logo.a55f1c43.svg"
+  }
+}
