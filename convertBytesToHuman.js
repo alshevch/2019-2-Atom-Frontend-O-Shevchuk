@@ -6,6 +6,20 @@
  * и класса (например, отрицательные числа)
  */
 
-function convertBytesToHuman(bytes) {
-  // your solution goes here
-}
+export default function convertBytesToHuman(bytes) {
+    if (typeof(bytes) !== "number" || bytes < 0)
+    return false
+  let types = ['B', 
+  'KB',
+  'MB',
+  'GB', 
+  'TB', 
+  'PB', 
+  'EB']
+  for (let type of types) {
+    if (bytes < 1024 || type === 'EB') {
+        return bytes.toFixed(2) + ' ' + type
+    }
+    bytes /= 1024
+  }
+  }
